@@ -1,0 +1,163 @@
+/* body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* header styles */
+#header-div {
+    height: 808px;
+    background-image: url('./images/banner/banner.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 150px;
+    margin-bottom: 130px;
+}
+
+#banner-data {
+    text-align: right;
+    width: 494px;
+}
+
+/* main styles */
+#failures-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+#failures-data {
+    width: 416px;
+}
+
+#plans {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#gradient {
+    background-image: linear-gradient(to left, rgba(241, 91, 34, 0), rgb(125, 50, 246)), url('./images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 130px 230px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#gradient-data {
+    width: 459px;
+}
+
+#ongoing-course {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-bottom: 130px;
+}
+
+#course-image {
+    margin-right: 30px;
+}
+
+/* footer styles */
+footer {
+    background-color: #151414;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 130px 0px;
+}
+
+#footer-info {
+    width: 485px;
+}
+
+/* common styles */
+h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: 700;
+}
+
+.txt-white {
+    color: white;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+input {
+    width: 305px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: larger;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #151414;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.btn-outline {
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: tomato;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
